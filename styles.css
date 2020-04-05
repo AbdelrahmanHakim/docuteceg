@@ -1,0 +1,279 @@
+.testmonials{
+    margin: 2%;
+    
+}
+
+h3{
+    text-align: center;
+}
+
+
+p{
+    text-align: center;
+}
+
+.homeContact{
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 45%;
+}
+
+.productsHome{
+    background-color: black;
+    color: white;
+    padding: 5%;
+}
+
+
+.productsImages{
+    text-align: center;
+    margin: 5% 0% ;
+    
+}
+
+.productsImages img:hover{
+background-color: tomato;
+transition: linear 1s;
+    
+}
+
+.productsIntro{
+    margin-bottom: 6%;
+}
+.green{
+    margin-top: 7%;
+    margin-left: 35%;
+}
+.footer{
+    margin-top: 3%;
+    background-color: white;
+    color: black;
+}
+.footer-contact h3{
+    float:left; 
+    padding-bottom: 5%;
+}
+.footer-links{
+    text-align: center;
+}
+
+.copyrights{
+    background-color: black;
+    color:wheat;
+    text-align: center;
+    padding-top: 1%;
+    margin-top: 2%;
+    padding-bottom:1%;
+   
+}
+.video{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.video iframe{
+    width:900px;
+    height:506px;
+}
+
+.contactBody{
+    margin-top: 5%;
+    background-color: #F0F0F0;
+    border-radius: 12px;
+    padding: 2%;
+}
+
+.contactBody h2{
+    margin-left: 5%;
+}
+form{
+   
+    border-radius: 12px;
+    padding: 4%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+}
+form button{
+    margin-left: 21%;
+}
+.contactMap{
+    margin-left: 20%;
+}
+.contactMap iframe{
+    width:620px;
+    height:350px;
+}
+/* 
+label{
+    margin-left: 6%;
+}
+input{
+    margin-left: 6%;
+}
+
+#textArea{
+   margin-left: 25%;
+} */
+
+
+.aboutBodyContent{
+    margin-top: 5%;
+    background-color: #F0F0F0;
+    border-radius: 12px;
+    padding: 2%;
+
+}
+
+.aboutBodyContent h2{
+    margin-bottom: 2%;
+}
+.aboutBodyContent p{
+    text-align: left;
+}
+
+.aboutBodyContent img{
+    width: 560px;
+    height:260px;
+}
+
+
+
+.galleryBG{
+    background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%);
+}
+
+.container.gallery-container {
+    background-color: #fff;
+    /* color: #35373a; */
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    /* font-family: 'Droid Sans', sans-serif;
+    font-weight: bold; */
+}
+
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+.downloadButton{
+    margin-bottom: 5%;
+    margin-left: 40%;
+    padding: 5%;
+    text-align: center;
+}
+.downloadButton a{
+    
+    color: white;
+    text-align: center;
+
+  
+}
+.downloadButton a:hover{
+color: whitesmoke;
+text-decoration: none;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
+
+@media(max-width:480px){
+    .homeContact{
+        text-align: center;
+        margin-top: 5%;
+        margin-left: 33%;
+    }
+
+    .footer-contact{
+
+        text-align: center;
+    }
+    .footer-contact h3{
+        float: none;
+        text-align: center;
+        padding-bottom: 0%;
+    }
+
+    .footer-map{
+        margin-left: -2%;
+        margin-top: 5%;
+    }
+    .green{
+        margin-bottom: 10%;
+       
+    }
+    .video{
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+    .video iframe{
+        width:300px;
+        height:306px;
+    }
+    .contactMap{
+        margin-left: 0%;
+    }
+    .contactMap iframe{
+        width:320px;
+        height:350px;
+    }
+    .contactBody {
+        margin-top: 15%;
+
+    }
+    .contactBody h2{
+        text-align: center;
+    }
+    .aboutBodyContent{
+        margin-top: 15%;
+ 
+    }
+
+    .aboutBodyContent img{
+        width: 300px;
+        height:260px;
+    }
+
+    .aboutBodyContent h2{
+        margin-bottom: 2%;
+        text-align: center;
+    }
+    .downloadButton{
+       margin-left: 10%;
+        text-align: center;
+    }
+}
