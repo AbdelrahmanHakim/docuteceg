@@ -262,6 +262,9 @@ text-decoration: none;
         margin-top: 15%;
  
     }
+    .carouselBody{
+        margin-top: 15%;
+    }
 
     .aboutBodyContent img{
         width: 300px;
