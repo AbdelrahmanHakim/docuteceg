@@ -197,6 +197,15 @@ color: whitesmoke;
 text-decoration: none;
 }
 
+.imgIntro{
+    
+    width: 340px;
+}
+
+.imgintroHeight{
+    height:305px;
+}
+
 
 @media(max-width: 768px) {
     body {
@@ -265,12 +274,19 @@ text-decoration: none;
     }
 
     .aboutBodyContent img{
-        width: 300px;
+        width: 340px;
         height:260px;
     }
 
+    .imgIntro{
     
-
+        width: 320px;
+    }
+    
+    .imgintroHeight{
+        height:290px;
+    }
+    
     .aboutBodyContent h2{
         margin-bottom: 2%;
         text-align: center;
@@ -279,4 +295,8 @@ text-decoration: none;
        margin-left: 10%;
         text-align: center;
     }
+    .submitContact{
+        margin-left: 35%;
+    }
+
 }

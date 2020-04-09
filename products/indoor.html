@@ -9,14 +9,16 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  <link rel="shortcut icon" href="/favicon.jpg" /> 
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+ <link rel="shortcut icon" href="/favicon.jpg" /> 
   <title>Docutec | Indoor-Light</title>
 </head>
 <body>
     
     <div class="navigationb">
         <nav class="navbar fixed-top  navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="../index.html">
+        <a class="navbar-brand" href="index.html">
           DOCUTEC
         </a>
     
@@ -48,6 +50,88 @@
         </div>
       </nav>
           </div>
+          <body class="galleryBG">
+    
+            <div class="navigationb">
+                <nav class="navbar fixed-top  navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="../index.html">
+                  DOCUTEC
+                </a>
+            
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link textdecor" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" active role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Products
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="sports.html">Sports Lighting</a>
+                          <a class="dropdown-item" href="indoor.html">Indoor Lamps</a>
+                          <a class="dropdown-item" href="flood.html">Flood Light</a>
+                        </div>
+                      </li>
+                    <li class="nav-item active">
+                      <a class="nav-link " href="../about.html">About</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link " href="../contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+                  </div>
+        
+                  <div class="container gallery-container">
+        
+                    <h1>Indoor Lighting</h1>
+                   <div class="tz-gallery">
+                
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4">
+                                <a class="lightbox" href="./indoor/app1.JPG">
+                                    <img src="./indoor/1.jpg" alt="Park">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                                <a class="lightbox" href="./indoor/app2.JPG">
+                                    <img src="./indoor/2.jpg" alt="Heat Sink">
+                                </a>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <a class="lightbox" href="./indoor/app3.JPG">
+                                    <img src="./indoor/3.jpg" alt="Heat Sink">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                                <a class="lightbox" href="./indoor/app4.JPG">
+                                    <img src="./indoor/4.jpg" alt="Heat Sink">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                                <a class="lightbox" href="./indoor/app5.JPG">
+                                    <img src="./indoor/5.jpg" alt="Heat Sink">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                              <a class="lightbox" href="./indoor/app6.JPG">
+                                  <img src="./indoor/6.jpg" alt="Heat Sink">
+                              </a>
+                          </div>
+  
+                        </div>
+                
+                    </div>
+        
+                    <button class="btn btn-success downloadButton">
+                      <a  href="./indoor/indoor.pdf" target="_blank">Download Indoor-Light Catalogue</a>
+                    </button>
+                </div>
           
       <div class="container-fluid footer">
         <div class="container footercontent">
@@ -77,8 +161,12 @@
       </div>
       <div class="container-fluid copyrights">
         
-        Copyrights &copy;2020
+        Abdelrahman Abdelhakim &copy;2020
      
      </div>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+     <script>
+         baguetteBox.run('.tz-gallery');
+     </script>
 </body>
 </html>
